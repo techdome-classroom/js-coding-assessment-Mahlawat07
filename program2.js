@@ -32,11 +32,11 @@ const decodeTheRing = function (s, p) {
 
   };
 
-console.log(isMatch("aa", "a"));     // False
-console.log(isMatch("aa", "*"));     // True
-console.log(isMatch("cb", "?a"));    // False
-console.log(isMatch("abcdef", "a*d?f")); // True
-console.log(isMatch("abcd", "a*c?"));    // True
-console.log(isMatch("abc", "*?c"));   // True
+console.log(decodeTheRing("aa", "a"));     // False
+console.log(decodeTheRing("aa", "*"));     // True
+console.log(decodeTheRing("cb", "?a"));    // False
+console.log(decodeTheRing("abcdef", "a*d?f")); // True
+console.log(decodeTheRing("abcd", "a*c?"));    // True
+console.log(decodeTheRing("abc", "*?c"));   // True
   
   module.exports = decodeTheRing;
