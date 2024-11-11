@@ -2,7 +2,6 @@ const getTotalIsles = function (grid) {
 
 
   // write your code here
-  const getTotalIsles = function (grid) {
     // Helper function to perform DFS
     const dfs = function (grid, i, j) {
       // Base case: if out of bounds or water, return
