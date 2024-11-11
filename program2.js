@@ -12,6 +12,12 @@ const decodeTheRing = function (s, p) {
           i++;
           j++;
         }
+      
+        else if (starIndex !== -1) {
+          j = starIndex + 1;
+          matchIndex++;
+          i = matchIndex;
+      }
 };
   
 module.exports = decodeTheRing;
