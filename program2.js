@@ -23,7 +23,10 @@ const decodeTheRing = function (s, p) {
           return false;
         }
       }
-      
+
+      while (j < p.length && p[j] === '*') {
+        j++;
+      }
 };
   
 module.exports = decodeTheRing;
