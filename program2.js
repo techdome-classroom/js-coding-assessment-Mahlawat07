@@ -39,4 +39,4 @@ console.log(decodeTheRing("abcdef", "a*d?f")); // True
 console.log(decodeTheRing("abcd", "a*c?"));    // True
 console.log(decodeTheRing("abc", "*?c"));   // True
   
-  module.exports = decodeTheRing;
+module.exports = decodeTheRing;
