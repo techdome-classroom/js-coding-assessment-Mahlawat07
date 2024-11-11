@@ -11,7 +11,7 @@ const decodeTheRing = function (s, p) {
         if (j < p.length && (p[j] === '?' || p[j] === s[i])) {
           i++;
           j++;
-      }
+        }
   };
   
   module.exports = decodeTheRing;
