@@ -3,7 +3,7 @@ const decodeTheRing = function (s, p) {
     // write your code here
     function matchHelper(mIndex, pIndex) {
    
-      if (mIndex === message.length && pIndex === pattern.length) {
+      if (mIndex === s.length && pIndex === pattern.length) {
         return true;
       }
   
@@ -13,15 +13,15 @@ const decodeTheRing = function (s, p) {
       
       if (pattern[pIndex] === '*') {
         
-        return matchHelper(mIndex, pIndex + 1) || (mIndex < message.length && matchHelper(mIndex + 1, pIndex));
+        return matchHelper(mIndex, pIndex + 1) || (mIndex < s.length && matchHelper(mIndex + 1, pIndex));
       }
   
       
       if (pattern[pIndex] === '?') {
-        return mIndex < message.length && matchHelper(mIndex + 1, pIndex + 1);
+        return mIndex < s.length && matchHelper(mIndex + 1, pIndex + 1);
       }
   
-      if (mIndex < message.length && message[mIndex] === pattern[pIndex]) {
+      if (mIndex < s.length && s[mIndex] === pattern[pIndex]) {
         return matchHelper(mIndex + 1, pIndex + 1);
       }
   
