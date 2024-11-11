@@ -14,7 +14,6 @@ const getTotalIsles = function (grid) {
       dfs(grid, i, j + 1); 
     };
   
-    // Check if the grid is empty
     if (!grid || grid.length === 0) return 0;
   
     let islandCount = 0;
