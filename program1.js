@@ -41,5 +41,5 @@ const dispatch1 = [
   ["L", "L", "W", "W", "W"],
   ["W", "W", "W", "W", "W"],
 ];
-console.log(numIslands(dispatch1));
+console.log(getTotalIsles(dispatch1));
 module.exports = getTotalIsles;
