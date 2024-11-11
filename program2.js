@@ -12,7 +12,6 @@ const decodeTheRing = function (s, p) {
           i++;
           j++;
       }
-
   };
   
   module.exports = decodeTheRing;
