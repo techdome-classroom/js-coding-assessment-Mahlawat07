@@ -3,7 +3,6 @@ const getTotalIsles = function (grid) {
 
   // write your code here
     const dfs = function (grid, i, j) {
-      // Base case: if out of bounds or water, return
       if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || grid[i][j] === 'W') {
         return;
       }
