@@ -41,5 +41,5 @@ const getTotalIsles = function (grid) {
 //   ["L", "L", "W", "W", "W"],
 //   ["W", "W", "W", "W", "W"],
 // ];
-// console.log(getTotalIsles(payload));
+// console.log(getTotalIsles(payload)); 
 module.exports = getTotalIsles;
