@@ -31,5 +31,7 @@ const decodeTheRing = function (s, p) {
     return matchHelper(0, 0);
 
   };
+
+  consoe
   
   module.exports = decodeTheRing;
