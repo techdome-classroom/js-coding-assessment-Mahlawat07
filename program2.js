@@ -7,6 +7,8 @@ const decodeTheRing = function (s, p) {
       let starIndex = -1;
       let matchIndex = -1;
 
+      while (i < s.length) {
+
   };
   
   module.exports = decodeTheRing;
