@@ -21,8 +21,8 @@ const decodeTheRing = function (s, p) {
 
         else {
           return false;
+        }
       }
-  }
 
 };
   
