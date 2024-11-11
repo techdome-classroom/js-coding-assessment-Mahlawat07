@@ -18,7 +18,7 @@ const getTotalIsles = function (grid) {
   
     let islandCount = 0;
   
-    // Iterate over each cell in the grid
+    
     for (let i = 0; i < grid.length; i++) {
       for (let j = 0; j < grid[0].length; j++) {
         // If we find an 'L', it's a new island
