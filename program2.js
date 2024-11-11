@@ -27,6 +27,9 @@ const decodeTheRing = function (s, p) {
       while (j < p.length && p[j] === '*') {
         j++;
       }
+
+      return j === p.length;
+      }
 };
   
 module.exports = decodeTheRing;
