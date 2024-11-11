@@ -19,7 +19,11 @@ const decodeTheRing = function (s, p) {
           i = matchIndex;
         }
 
-        
+        else {
+          return false;
+      }
+  }
+
 };
   
 module.exports = decodeTheRing;
