@@ -8,6 +8,7 @@ const decodeTheRing = function (s, p) {
       let matchIndex = -1;
 
       while (i < s.length) {
+        if (j < p.length && (p[j] === '?' || p[j] === s[i])) {
 
   };
   
