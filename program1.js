@@ -41,5 +41,5 @@ const payload = [
   ["L", "L", "W", "W", "W"],
   ["W", "W", "W", "W", "W"],
 ];
-console.log(getTotalIsles(dispatch1));
+console.log(getTotalIsles(payload));
 module.exports = getTotalIsles;
