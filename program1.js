@@ -9,9 +9,9 @@ const getTotalIsles = function (grid) {
       
       grid[i][j] = 'W';
       dfs(grid, i - 1, j);  
-      dfs(grid, i + 1, j);  // down
-      dfs(grid, i, j - 1);  // left
-      dfs(grid, i, j + 1);  // right
+      dfs(grid, i + 1, j);  
+      dfs(grid, i, j - 1);  
+      dfs(grid, i, j + 1); 
     };
   
     // Check if the grid is empty
