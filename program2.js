@@ -28,6 +28,8 @@ const decodeTheRing = function (s, p) {
       return false;
     }
 
+    return matchHelper(0, 0);
+
   };
   
   module.exports = decodeTheRing;
