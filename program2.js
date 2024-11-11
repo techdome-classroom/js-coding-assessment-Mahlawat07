@@ -32,11 +32,11 @@ const decodeTheRing = function (s, p) {
 
   };
 
-console.log(decodeTheRing("aa", "a"));     // False
-console.log(decodeTheRing("aa", "*"));     // True
-console.log(decodeTheRing("cb", "?a"));    // False
-console.log(decodeTheRing("abcdef", "a*d?f")); // True
-console.log(decodeTheRing("abcd", "a*c?"));    // True
-console.log(decodeTheRing("abc", "*?c"));   // True
+console.log(decodeTheRing("aa", "a"));     
+console.log(decodeTheRing("aa", "*"));    
+console.log(decodeTheRing("cb", "?a"));    
+console.log(decodeTheRing("abcdef", "a*d?f")); 
+console.log(decodeTheRing("abcd", "a*c?"));   
+console.log(decodeTheRing("abc", "*?c")); 
   
 module.exports = decodeTheRing;
