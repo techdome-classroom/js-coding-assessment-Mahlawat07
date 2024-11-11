@@ -32,7 +32,7 @@ const decodeTheRing = function (s, p) {
 
   };
 
-console.log(decodeTheRing("aa", "a"));  //   
+console.log(decodeTheRing("aa", "a"));  //false   
 console.log(decodeTheRing("aa", "*"));    
 console.log(decodeTheRing("cb", "?a")); 
   
