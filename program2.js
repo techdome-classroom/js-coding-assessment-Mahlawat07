@@ -30,6 +30,7 @@ const decodeTheRing = function (s, p) {
 
       return j === p.length;
     }
+    
 };
   
 module.exports = decodeTheRing;
