@@ -9,7 +9,9 @@ const decodeTheRing = function (s, p) {
 
       while (i < s.length) {
         if (j < p.length && (p[j] === '?' || p[j] === s[i])) {
-          
+          i++;
+          j++;
+      }
 
   };
   
