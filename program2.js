@@ -17,7 +17,9 @@ const decodeTheRing = function (s, p) {
           j = starIndex + 1;
           matchIndex++;
           i = matchIndex;
-      }
+        }
+
+        
 };
   
 module.exports = decodeTheRing;
