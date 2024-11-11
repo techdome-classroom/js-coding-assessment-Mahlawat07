@@ -23,7 +23,7 @@ const decodeTheRing = function (s, p) {
           return false;
         }
       }
-
+      
 };
   
 module.exports = decodeTheRing;
