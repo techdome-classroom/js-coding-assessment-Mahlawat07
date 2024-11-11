@@ -32,8 +32,8 @@ const decodeTheRing = function (s, p) {
 
   };
 
-console.log(decodeTheRing("aa", "a"));  //false   
-console.log(decodeTheRing("aa", "*"));  //true 
-console.log(decodeTheRing("cb", "?a")); //false 
+// console.log(decodeTheRing("aa", "a"));  //false   
+// console.log(decodeTheRing("aa", "*"));  //true 
+// console.log(decodeTheRing("cb", "?a")); //false 
   
 module.exports = decodeTheRing;
